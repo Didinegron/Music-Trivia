@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/79c7c7b215.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="end" class="flex-center flex-column">
+      <p id="end-text" class="hud-prefix" style "font-family:sans-serif; font-weight:bold”
+
+          </p>
+            YOUR SCORE IS!
+          </p>
+
+      <h1 id="finalScore">0</h1>
+      <form class="end-form-container">
+
+       <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+        <a href="game.html" class="btn">Play Again</a>
+        <a href="intro.html" class="btn"> Go Home <i class=" fas fa-home "></i></a>
+    </div>
+  </div>
+  <script src="end.js"></script>
+  <audio controls autoplay>
+    <source src="audio/Win.wav" type="audio/wav">
+      If you can read this, your browser does not support the audio element.
+  </audio>
+</body>
+
+</html>
